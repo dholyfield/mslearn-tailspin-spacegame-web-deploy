@@ -12,7 +12,7 @@
     - job: 'Build'
       displayName: 'Build job'
       pool:
-        name: 'MyAgenPool'
+        name: 'MyAgentPool'
         demands:
         - npm
   
